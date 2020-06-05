@@ -93,6 +93,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   document.addEventListener("keyup", control);
+  document.getElementById("leftBtn").addEventListener("click", moveLeft);
+  document.getElementById("rightBtn").addEventListener("click", moveRight);
+  document.getElementById("rotateBtn").addEventListener("click", rotate);
+  document.getElementById("downBtn").addEventListener("click", moveDown);
 
   //freeze function
   function freeze() {
@@ -227,6 +231,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
   }
+
+
 
 })
 

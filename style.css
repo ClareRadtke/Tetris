@@ -1,5 +1,10 @@
 .container {
   display: flex;
+  min-width: 500px;
+}
+
+#startBtn {
+  margin-bottom: 25px;
 }
 
 .grid {
@@ -13,7 +18,6 @@
 .grid div {
   height: 20px;
   width: 20px;
-  
 }
 
 .tetromino {
@@ -21,7 +25,7 @@
 }
 
 .miniGrid {
-  margin-left: 50px;
+  margin-left: 25px;
   width: 80px;
   height: 80px;
   display: flex;
@@ -33,4 +37,35 @@
   height: 20px;
   width: 20px;
 }
+
+.actions {
+  margin-left: 25px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#rotateBtn {
+  width: 100px;
+  height: 25px;
+}
+
+#leftBtn {
+  width: 25px;
+  height: 25px;
+}
+
+#rightBtn {
+  width: 25px;
+  height: 25px;
+
+}
+
+#downBtn {
+  width: 50px;
+  height: 25px;
+
+}
+
 
